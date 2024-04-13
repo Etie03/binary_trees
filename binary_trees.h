@@ -75,5 +75,5 @@ int binary_tree_is_heap(const binary_tree_t *tree);
 heap_t *heap_insert(heap_t **root, int value);
 heap_t *array_to_heap(int *array, size_t size);
 
-
+bst_t *swap(bst_t *node, bst_t *new);
 #endif
