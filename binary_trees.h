@@ -76,4 +76,8 @@ heap_t *heap_insert(heap_t **root, int value);
 heap_t *array_to_heap(int *array, size_t size);
 
 bst_t *swap(bst_t *node, bst_t *new);
+int height(const binary_tree_t *tree);
+int binary_tree_is_perfect(const binary_tree_t *tree);
+void swap(heap_t **arg_node, heap_t **arg_child);
+
 #endif
